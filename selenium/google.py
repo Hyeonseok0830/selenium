@@ -10,6 +10,7 @@ def createFolder(directory):
             os.makedirs(directory)
     except OSError:
         print ('Error: Creating directory. ' +  directory)
+        
 words = ["김주헌"]
 for keyword in words:
     search_keyword = keyword
